@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* header section start -------------------------------------------------------------*/
+header {
+    background-image: url('../images/header-bg2.png');
+}
+
+header .overlay {
+    background: rgba(255, 250, 255, .8);
+}
+
+header .overlay .header-overlay {
+    background: rgba(0, 68, 92, .9);
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/header-bg.png");
+    width: 100%;
+}
+
+nav>.logo>img {
+    width: 50px;
+    height: 50px;
+}
+
+nav>.logo>span {
+    white-space: pre-line;
+    font-size: 12px;
+    color: #645b5b;
+    line-height: 13px;
+}
+
+nav>ul>li>a {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* services container start  ----------------------------------------------------------------------------*/
+.service-container {
+    background: rgba(255, 250, 255, .8);
+    border-radius: 15px;
+}
+
+.service-container img {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -45px;
+    left: 40%;
+}
+
+.service-container button {
+    position: absolute;
+    bottom: -10px;
+    left: 33%;
+}
+
+.service-container p {
+    color: #5c5858;
+}
+
+/* map section start  ----------------------------------------------------------------------------*/
+
+#map_section>div{
+    margin: 0;
+    padding: 0;
+}
+#map_section>img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -37px;
+    left: 50%;
+}
+
+/* general classes ------------------------------------------------------------------------------*/
+.read-more-btn {
+    background-color: #F87021;
+    color: white;
+}
+
+.btn-grey {
+    background-color: #F0F0F0;
+    color: #00445B;
+    padding: 10px 20px;
+}
+
+.bg-blue {
+    background-color: #00445c;
+}
+
+.active-link {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.color-orange {
+    color: #F87021;
+}
+
+.color-blue {
+    color: #00445B;
+}
+
+.active-link {
+    background: rgba(255, 255, 255, .2);
+}
