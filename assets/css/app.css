@@ -8,6 +8,8 @@
 /* header section start -------------------------------------------------------------*/
 header {
     background-image: url('../images/header-bg2.png');
+    background-size: cover;
+    background-position: center center;
 }
 
 header .overlay {
@@ -15,7 +17,7 @@ header .overlay {
 }
 
 header .overlay .header-overlay {
-    background: rgba(0, 68, 92, .9);
+    background: rgba(0, 68, 92, 0.8);
 }
 
 nav {
@@ -23,6 +25,7 @@ nav {
     margin: 0;
     background-image: url("../images/header-bg.png");
     width: 100%;
+    background-size: cover;
 }
 
 nav>.logo>img {
@@ -37,11 +40,17 @@ nav>.logo>span {
     line-height: 13px;
 }
 
-nav>ul>li>a {
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
+.nav-link{
+    color: #fff  !important;
 }
+
+@media (max-width:991px) {
+ .nav-link{
+        color: #00445B  !important;
+    }
+}
+
+
 
 /* services container start  ----------------------------------------------------------------------------*/
 .service-container {
@@ -66,13 +75,17 @@ nav>ul>li>a {
 .service-container p {
     color: #5c5858;
 }
-
+#our-training >p{
+    max-width: 80%;
+    margin: auto;
+}
 /* map section start  ----------------------------------------------------------------------------*/
 
-#map_section>div{
+#map_section>div {
     margin: 0;
     padding: 0;
 }
+
 #map_section>img {
     width: 70px;
     height: 70px;
